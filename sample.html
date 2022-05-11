@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="sample.css">
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <h1>Welcome back</h1>
+            <h2>You have new tasks to do in a week</h2>  
+            <form action="#"  id="lists" class="task">
+                <!-- <input type="checkbox" onclick="perform()" class="check"/> -->
+            <input type="text"  name="item" id="item" placeholder="Add New task" />
+            <!-- <input type="text"  name="item" id="desc" placeholder="Add Description" /> -->
+            <ul id = "mtags">
+               
+            </ul>
+                <button id="sub">Submit</button>
+            </form> 
+            <div class="listitems">
+                <ul id="list">
+                    
+                      <!-- <div class="para">
+                        <p></p>
+                    </div>
+                    <div class="textholder">
+                    <input type="text"  name="item" id="tags" placeholder="Add tags" />
+                    <input type="text"  name="item" id="desc" placeholder="Add Description" /> 
+                     </div> 
+      -->
+
+                    <button class ="close"onclick ="deltask()">X</button>
+                </ul>
+                
+            </div>
+        </div>
+      
+    </div>
+</body>
+<script src="sample.js"></script>
+<script src="https://kit.fontawesome.com/e65200497a.js" crossorigin="anonymous"></script>
+</html>
